@@ -9,16 +9,19 @@ import Projects from './pages/Projects';
 function App() {
 
   return (
-    <BrowserRouter>
-    <Home/>
+    <div>
 
-      {/* <Routes>
+      <BrowserRouter>
+        <Home />
+
+        {/* <Routes>
         <Route path='/' exact element={<Home />} />
         <Route path='/about' exact element={<About />} />
         <Route path='/projects' exact element={<Projects />} />
       </Routes> */}
 
-    </BrowserRouter>
+      </BrowserRouter>
+    </div>
   )
 }
 
