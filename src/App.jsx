@@ -10,9 +10,9 @@ function App() {
 
   return (
     <div>
+        <Home />
 
       <BrowserRouter>
-        <Home />
 
         {/* <Routes>
         <Route path='/' exact element={<Home />} />
