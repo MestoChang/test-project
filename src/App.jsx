@@ -10,17 +10,17 @@ function App() {
 
   return (
     <div>
-        <Home />
+
+      APP
 
       <BrowserRouter>
-
-        {/* <Routes>
-        <Route path='/' exact element={<Home />} />
-        <Route path='/about' exact element={<About />} />
-        <Route path='/projects' exact element={<Projects />} />
-      </Routes> */}
-
+        <Routes>
+          <Route path='/' exact element={<Home />} />
+          <Route path='/about' exact element={<About />} />
+          <Route path='/projects' exact element={<Projects />} />
+        </Routes>
       </BrowserRouter>
+
     </div>
   )
 }
