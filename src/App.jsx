@@ -10,20 +10,25 @@ import Navbar from './components/Navbar';
 function App() {
 
   return (
-      <BrowserRouter>
+
+    <div>
+      APP
+
+      {/* <BrowserRouter>
       HOME
       <Navbar/>
 
 
         <Routes>
-          {/* <Route path='/' exact element={<Home />} /> */}
+          <Route path='/' exact element={<Home />} />
           <Route path='/about' exact element={<About />} />
           <Route path='/projects' exact element={<Projects />} />
         </Routes>
 
 
-      </BrowserRouter>
+      </BrowserRouter> */}
 
+    </div>
   )
 }
 
